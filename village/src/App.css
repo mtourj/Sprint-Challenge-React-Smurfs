@@ -1,3 +1,30 @@
-.App {
-  text-align: center;
+.nav-bar {
+  border-bottom: 1px solid rgb(14, 14, 14);
+  box-shadow: 0 0 6px -2px gray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  margin: 7px 4px;
+  padding: 8px;
+  border-radius: 4px;
+  background: none;
+  color: rgb(59, 59, 59);
+
+  transition: background 0.2s;
+}
+
+.nav-bar a:hover {
+  color: white;
+  background: rgb(186, 198, 212);
+}
+
+.nav-bar a.active {
+  background: dodgerblue;
+  color: white; 
 }

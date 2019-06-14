@@ -1,0 +1,9 @@
+.Smurf {
+  background: rgb(230, 191, 92);
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 300px;
+  padding: 12px;
+  margin: 1rem;
+  box-shadow: 2px 2px 6px -2px gray;
+}
