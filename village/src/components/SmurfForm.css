@@ -1,0 +1,72 @@
+.SmurfForm {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+
+.SmurfForm form {
+  display: flex;
+  flex-direction: column;
+  background: dodgerblue;
+  padding: 1.5rem;
+  border-radius: 9px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  margin: 6px 8px;
+  border: none;
+  border-radius: 6px;
+  height: 15px;
+}
+
+label {
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 8px 16px;
+  padding-bottom: 16px;
+}
+
+form button {
+  border: none;
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 6px;
+  background: rgb(248, 255, 249);
+  cursor: pointer;
+
+  transition: background 0.2s;
+}
+
+form button:hover {
+  background: white;
+}
+
+label.cm {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bolder;
+  color: gray;
+  transform: translateX(275%) translateY(120%);
+  user-select: none;
+  appearance: textfield;
+}
+
+label.age {
+  position: absolute;
+  font-size: 14px;
+  color: gray;
+  transform: translateX(77%) translateY(12%);
+  user-select: none;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
